@@ -64,11 +64,6 @@ OnlineShop is an e-commerce platform that allows users to browse products, add t
         define('DB_PASSWORD', '');
         define('DB_DATABASE', 'onlineshop');
         ```
-5. Ensure the `uploads` directory is writable:
-    ```sh
-    chmod -R 777 uploads/
-    ```
-
 ## Usage
 
 1. Start your web server and ensure it is properly configured to serve PHP applications.
