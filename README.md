@@ -49,11 +49,11 @@ OnlineShop is an e-commerce platform that allows users to browse products, add t
     cd OnlineShop
     ```
 3. Import the SQL file to set up the database:
-    - Open your MySQL database management tool (e.g., phpMyAdmin).
+    - Open your MySQL database management tool (phpMyAdmin).
     - Create a new database named `onlineshop`.
     - Import the SQL file located in the `sql` directory:
         ```sh
-        source path/to/sql/file.sql
+        source path/to/sql/onlineshop.sql
         ```
 4. Configure the database connection:
     - Open `config.php` in the project root.
