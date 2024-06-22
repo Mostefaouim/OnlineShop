@@ -27,6 +27,7 @@ OnlineShop is an e-commerce platform that allows users to browse products, add t
 ## Technologies Used
 
 - Frontend: HTML, CSS, Bootsrap
+- Backend: PHP
 - Database: MySQL
 
 ## Installation
