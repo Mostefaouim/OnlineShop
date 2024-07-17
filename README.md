@@ -53,7 +53,7 @@ OnlineShop is an e-commerce platform that allows users to browse products, add t
     - Create a new database named `onlineshop`.
     - Import the SQL file located in the `sql` directory:
         ```sh
-        source path/to/sql/onlineshop.sql
+        source OnlineShop/sql/onlineshop.sql
         ```
 4. Configure the database connection:
     - Open `config.php` in the project root.
