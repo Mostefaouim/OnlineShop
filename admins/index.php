@@ -25,7 +25,7 @@
         );
 
         // Define bucket name for products
-        $bucketName = 'shopnest';
+        $bucketName = 'shopora';
 
         // Check if the bucket exists, if not create it
         try {
@@ -97,7 +97,7 @@
     <center>
         <div class="col" >
             <h2>Admin Dashboard</h2>
-            <img src="https://eattnoxdvsftpyaztuxd.supabase.co/storage/v1/object/sign/shopnest/ecommerce.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5XzU5NGM4Zjk4LTVlNWMtNDJhNC1iODlmLWY2OWQ0ZTZiYmI4NSJ9.eyJ1cmwiOiJzaG9wbmVzdC9lY29tbWVyY2Uud2VicCIsImlhdCI6MTc0Njg5NTMwNywiZXhwIjoyMDYyMjU1MzA3fQ.WYPy7nDW4gRsU8Ejznn3GASpl4iFaHdqEhktqGW9gf8" alt="logo" width="250px" id="logo">
+            <img src="https://eattnoxdvsftpyaztuxd.supabase.co/storage/v1/object/sign/Shopora/ecommerce.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5XzU5NGM4Zjk4LTVlNWMtNDJhNC1iODlmLWY2OWQ0ZTZiYmI4NSJ9.eyJ1cmwiOiJzaG9wbmVzdC9lY29tbWVyY2Uud2VicCIsImlhdCI6MTc0Njg5NTMwNywiZXhwIjoyMDYyMjU1MzA3fQ.WYPy7nDW4gRsU8Ejznn3GASpl4iFaHdqEhktqGW9gf8" alt="logo" width="250px" id="logo">
             <form method="post" action="index.php" enctype="multipart/form-data">
                 <input type="text" class="form-control" placeholder="Name" aria-label="Name" name="name"><br>
                 <input type="number" class="form-control" placeholder="Price" aria-label="Price" name="price">

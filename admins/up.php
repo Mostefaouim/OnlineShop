@@ -14,7 +14,7 @@
     );
 
     // Define bucket name for products
-    $bucketName = 'shopnest';
+    $bucketName = 'shopora';
 
     if (isset($_POST['update'])) {
         $ID = $_POST['id'];
