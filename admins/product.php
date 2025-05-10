@@ -42,23 +42,19 @@
 include 'config.php';
 $result = mysqli_query($conn,"SELECT * FROM prod");
 while($row = mysqli_fetch_array($result)){
-    echo "
+    ?>
         <center>
         <main>
             <div class='card'>
-                <img src='image/$row[image]' class='card-img-top'>
+                <img src='<?php echo $row["image"]; ?>' class='card-img-top'>
                 <div class='card-body'>
-                    <h5 class='card-title'>$row[name]</h5>
-                    <p class ='card-text'>$row[price] $</p>
-                    <a href='delete.php? id=$row[id]' class='btn btn-danger' >Delete</a>
-                    <a href='modify.php? id=$row[id]' class='btn btn-primary'>Modify</a>
+                    <h5 class='card-title'><?php echo $row["name"]; ?></h5>
+                    <p class='card-text'><?php echo $row["price"]; ?> $</p>
+                    <a href='delete.php?id=<?php echo $row["id"]; ?>' class='btn btn-danger'>Delete</a>
+                    <a href='modify.php?id=<?php echo $row["id"]; }?>' class='btn btn-primary'>Modify</a>
                 </div>
             </div>
         </main>
     </center>
-    ";
-}
-?>
-
 </body>
 </html>

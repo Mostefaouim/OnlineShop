@@ -107,7 +107,7 @@ if (isset($message)) {
     while ($row = mysqli_fetch_array($result)) {
     ?>
         <form method="post" class="box" action="">
-            <img src="../admins/image/<?php echo $row['image']; ?>" width="200">
+            <img src="<?php echo $row['image']; ?>" width="200">
             <div class="name"><?php echo $row['name']; ?></div>
             <div class="price"><?php echo $row['price'] . " $"; ?></div>
             <input type="number" min="1" name="product_quantity" value="1">
@@ -145,7 +145,7 @@ if (isset($message)) {
             while ($fetch_cart = mysqli_fetch_assoc($cart_query)) {
         ?>
             <tr>
-                <td><img src="../admins/image/<?php echo $fetch_cart['image']; ?>" height="75" alt=""></td>
+                <td><img src="<?php echo $fetch_cart['image']; ?>" height="75" alt=""></td>
                 <td><?php echo $fetch_cart['name']; ?></td>
                 <td><?php echo $fetch_cart['price']; ?>$ </td>
                 <td>
